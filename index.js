@@ -12,7 +12,6 @@ app.get('rede/usuarios',(req,res) => {
 app.post('rede/usuarios',(req,res) => {
     cont++
 
-    const id = req.body.id
     const nome = req.body.nome
     const email = req.body.email
 
