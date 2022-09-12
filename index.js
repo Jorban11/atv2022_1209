@@ -17,7 +17,6 @@ app.post('rede/usuarios',(req,res) => {
     const email = req.body.email
 
     usuarios[cont] = {
-        id,
         nome,
         email
     }
