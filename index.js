@@ -9,7 +9,7 @@ app.get('rede/usuarios',(req,res) => {
     res.send(usuarios)
 })
 
-app.post('rede/usuarios',(req,res) => {
+app.post('rede/usuarios',(req,res,next) => {
     cont++
 
     const nome = req.body.nome
